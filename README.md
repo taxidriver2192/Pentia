@@ -3,7 +3,7 @@
 
 Her er det et billede af det færdig desig.
 
-[[https://github.com/taxidriver2192/pentia-v2/blob/main/images/zeppeliner.png|Design]]
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
 
 ## Hvordan i tester det selv.
 
