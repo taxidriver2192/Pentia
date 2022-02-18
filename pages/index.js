@@ -1,12 +1,12 @@
 /* 
 Add css help of Head  Component on Specific web page 
 */
+import 'animate.css';
 
 // import head component
 import Head from "next/head";
 import Image from "next/image";
 //  import css
-import styles from "../styles/Home.module.css";
 import zeppeliner from "../images/zeppeliner.png"
 import ilustration1 from "../images/illustration1.png"
 import ilustration2 from "../images/illustration2.png"
@@ -30,21 +30,21 @@ export default function Home() {
         <div className="ipsum">
           <p>Lorem Ipsum</p>
         </div>
-        <div className="airshipImages">
+        <div className='zeppeliner animate__animated  animate__fadeInRight'>
           <Image src={zeppeliner} height={240} width={420} />
         </div>
           <div className="textZep">
             <h1>Digital transformation</h1>
             <h2>Rådgivning. Implementering. Resultater</h2>
             <p>Hvordan bliver din virksomhed en digital vinder i fremtiden?</p>
-            <p>Hvilke tiltag skal der til strategisk og taktisk for at dreje forretningen i den rigtige retning? Hvilke elementer indeholder en succesfuld digital transformation? Vi har svarene. Pentia kan hjælpe dig på hele rejsen fra strategisk rådgivning til implementering.</p>
+            <p>Hvilke tiltag skal der til strategisk og taktisk for at dreje forretningen i den<br/> rigtige retning? Hvilke elementer indeholder en succesfuld digital<br/> transformation? Vi har svarene. Pentia kan hjælpe dig på hele rejsen fra<br/> strategisk rådgivning til implementering.</p>
           </div>
-          <div className="actionButton">
+        </div>
+        <div className="actionButton">
           <Link href="/#hashid" scroll={false}>
             <a>Start din rejse her</a>
           </Link>
           </div>
-        </div>
       </section>
       <section className="container light">
         <div className="content contentWho">
@@ -73,28 +73,28 @@ export default function Home() {
           <p>Ja tak, jeg vil gerne høre mere om digital transformation</p>
           <form className="contakt" id="contact" action="" method="post">
             <fieldset>
-              <input placeholder="Navn" type="text" title="Navn" tabindex="1" required autofocus></input>
+              <input placeholder="Navn" type="text" title="Navn" tabIndex="1" required autoFocus></input>
             </fieldset>
             <div className="row">
               <fieldset>
-                <input placeholder="Mobil" title="Mobil" type="tel" tabindex="2" required></input>
+                <input placeholder="Mobil" title="Mobil" type="tel" tabIndex="2" required></input>
               </fieldset>
               <fieldset>
-                <input type="text" pattern="[0-9]{4}" placeholder="Postnr." title="Postnr." tabindex="3" required></input>
+                <input type="text" pattern="[0-9]{4}" placeholder="Postnr." title="Postnr." tabIndex="3" required></input>
               </fieldset>
             </div>
             <div className="row">
               <fieldset>
-                <input placeholder="Email" title="Email" type="email" tabindex="4" required></input>
+                <input placeholder="Email" title="Email" type="email" tabIndex="4" required></input>
               </fieldset>
               <fieldset>
-                <input placeholder="By" title="By" type="text" tabindex="5" required ></input>
+                <input placeholder="By" title="By" type="text" tabIndex="5" required ></input>
               </fieldset>
             </div>
               <button name="submit" type="submit" id="submit" data-submit="...Sending">Submit</button>
           </form>
-          <Footer/>
         </div>
+        <Footer/>
       </section>
     </>
   );

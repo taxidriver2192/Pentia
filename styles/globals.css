@@ -23,9 +23,6 @@ main {
   float: left;
   width: calc(100vw - 120px);
 }
-footer {
-  margin-left: 120px;
-}
 .hidden {
   display: none;
 }
@@ -87,19 +84,23 @@ footer {
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
-  padding: 100px 30px 100px 30px;
   text-align: center;
   position: relative;
 }
 .dark {
   background-color: #2a2a2c;
 }
+
+.container.dark {
+  padding-top: 100px;
+}
 .container {
   color: #fff;
   float: left;
-  width: calc(100% - 60px);
-  padding: 0px 30px;
-  min-height: 100vh;
+  width: calc(100% - 75px);
+  padding: 180px 30px 100px;
+  position: relative;
+  min-height: calc(100vh - 200px);
 }
 
 /* font */
@@ -118,7 +119,7 @@ footer {
 }
 .content p {
   margin: 0px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.2;
 }
 
@@ -145,11 +146,10 @@ footer {
   right: 0px;
   bottom: 100px;
 }
-
 .textZep {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  padding-top: 120px;
 }
-
 .actionButton a {
   color: #fff;
   text-decoration: none;
@@ -164,6 +164,9 @@ h3 {
   font-size: 3em;
   font-weight: 900;
   margin-bottom: 100px;
+  margin-top: 0px;
+  float: left;
+  width: 100%;
 }
 
 .container.light {
@@ -190,9 +193,6 @@ h4 {
   font-size: 1.4em;
   margin: 20px 0px 30px;
 }
-.contentWho p {
-  font-size: 1.2em;
-}
 .red {
   background-color: #eb5b51;
 }
@@ -202,12 +202,15 @@ fieldset {
 .contact {
   max-width: 1040px;
 }
+.content.contact footer p {
+  font-size: 1.3em;
+}
 input {
   width: 100%;
   border: 0px;
   background-color: transparent;
   border-bottom: 2px solid #fff;
-  padding: 10px 10px;
+  padding: 10px 0px;
   color: #ffffff;
   font-size: 1.4em;
 }
@@ -245,6 +248,7 @@ fieldset {
 
 .content.contact p {
   margin-bottom: 120px;
+  font-size: 1.5em;
 }
 .content.contact h3 {
   margin-bottom: 15px;
@@ -261,13 +265,152 @@ fieldset {
 input::placeholder {
   color: #f5ada8;
 }
-
+.container.red {
+  padding-bottom: 160px;
+  min-height: calc(100vh - 210px);
+}
 /*kommer ikke til at ske https://caniuse.com/?search=scrollbar-color ved ikke om der er en bedre løsning til at styler overflow? */
 
 footer {
-  margin-top: 50px;
-  margin-left: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: calc(100vw - 195px);
+  text-align: center;
 }
 .content.contact footer p {
   margin: 30px 0px 0px 0px;
+}
+
+.contentWho .row {
+  padding-bottom: 100px;
+}
+
+.ipsum {
+  position: absolute;
+  top: -30px;
+}
+
+/* On screens that are 992px wide or less */
+@media screen and (max-width: 992px) {
+  .card {
+    float: left;
+    width: 100%;
+    max-width: none;
+  }
+  .card.right {
+    margin-top: 50px;
+  }
+  .contentWho .row {
+    padding-bottom: 50px;
+  }
+  .textZep {
+    padding-top: 30px;
+  }
+  .textZep h1 {
+    font-size: 3rem;
+    margin: 0px;
+  }
+  .textZep h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  .content p {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 1.8em;
+    margin-bottom: 50px;
+  }
+  h4 {
+    font-size: 1.2em;
+    margin: 15px 0px 20px;
+  }
+  .content.contact p {
+    margin-bottom: 30px;
+  }
+  .content.contact p {
+    font-size: 1.1em;
+  }
+  .contact {
+    max-width: 700px;
+  }
+  input {
+    font-size: 1em;
+  }
+  #submit {
+    font-size: 1.2em;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .content.contact footer p {
+    font-size: 1em;
+    margin: 15px 0px 0px 0px;
+  }
+  .container.dark {
+    padding-top: 70px;
+  }
+  .zeppeliner {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .zeppeliner {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .container {
+    padding: 50px 30px;
+    min-height: calc(100vh - 100px);
+  }
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  main {
+    width: 100%;
+    margin: 0px;
+    padding-top: 84px;
+  }
+  .navbarContainer {
+    width: 100%;
+    position: relative;
+  }
+  .navbarButton {
+    top: 15px;
+    z-index: 1;
+    right: 34px;
+    left: auto;
+  }
+  .container {
+    width: calc(100vw - 77px);
+  }
+  .navbarMenu {
+    width: 100%;
+    left: 0px;
+    top: 84px;
+  }
+  .logo {
+    padding: 15px 30px;
+  }
+  .actionButton {
+    bottom: 40px;
+  }
+  footer {
+    width: calc(100vw - 77px);
+  }
+  .row fieldset {
+    width: 100%;
+    margin: 0px !important;
+  }
+  input {
+    padding-left: 15px;
+    width: calc(100% - 15px);
+  }
+  br {
+    display: none;
+  }
 }

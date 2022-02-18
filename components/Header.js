@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import '../styles/Header.module.css'
 import Logo from '../images/logo.png'
 import Image from 'next/image'
 
