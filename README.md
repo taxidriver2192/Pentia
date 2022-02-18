@@ -17,6 +17,12 @@ npm run dev
 
 ```
 
+## Glemte
+Må indrømme at jeg ikke læste beskrivelse af opgaven helt igennem..
+Glemte at tilføre en video, så som et plaster på sået får i denne her video.
+
+<iframe width="1250" height="703" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Problemer.
 ### Font
 Den font i mener jeg skal bruge er en købe font, har fundet en der er tæt på, men den er ikke helt den rigtige..
