@@ -3,7 +3,12 @@
 
 Her er det et billede af det færdig desig.
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
+<p align="center">
+  <a href="https://expo.dev/">
+    <img alt="expo sdk" height="128" src="./.github/resources/banner.png">
+    <h1 align="center">Expo</h1>
+  </a>
+</p>
 
 ## Hvordan i tester det selv.
 
