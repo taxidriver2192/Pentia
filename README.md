@@ -37,7 +37,9 @@ Første gang jeg prøve at lave projektet ville jeg gerne lære tailwindui, lad 
 Har brugt for lang tid på responsive design, men nu spiller det til gengæld. Har ikke testet i andre browser eller enheder, har bare lavet det i firefox...
 
 Destop = 2.5t
+
 Responsive = 2TT
+
 Lidt leg = 1T
 
 ### Færdig desig.
