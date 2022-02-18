@@ -18,6 +18,9 @@ npm run dev
 ```
 
 ## Problemer.
+### Font
+Den font i mener jeg skal bruge er en købe font, har fundet en der er tæt på, men den er ikke helt den rigtige..
+
 ### Overflow
 Havde nogle problemer med at få stylet `overflow` i den farve der var i designet.
 Fandt dette https://caniuse.com/?search=scrollbar-color, men dette var ikke supportet og derfor droppede jeg det.
