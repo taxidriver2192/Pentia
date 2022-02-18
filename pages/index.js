@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
         <div className="actionButton">
-          <Link href="/#hashid" scroll={false}>
+          <Link href="/#sectionContakt" scroll={false}>
             <a>Start din rejse her</a>
           </Link>
           </div>
@@ -67,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container red">
+      <section id='sectionContakt' className="container red">
         <div className="content contact">
           <h3>Få 10 gode råd om<br/> digital transformation</h3>
           <p>Ja tak, jeg vil gerne høre mere om digital transformation</p>
