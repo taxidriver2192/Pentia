@@ -3,7 +3,7 @@
 
 Her er det et billede af det færdig desig.
 
-<img alt="expo sdk" height="128" src="https://github.com/taxidriver2192/pentia-v2/blob/main/images/zeppeliner.png">
+<img alt="expo sdk" src="https://github.com/taxidriver2192/pentia-v2/blob/main/images/Pentia-design.jpg">
 
 ## Hvordan i tester det selv.
 
