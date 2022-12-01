@@ -1,6 +1,8 @@
 
 # Opgave fra Pentia.
 
+<img alt="expo sdk" src="https://github.com/taxidriver2192/pentia-v2/blob/main/images/Pentia-design.jpg">
+
 ## Hvordan i tester det selv.
 
 Tænker godt i ved hvordan man tester det, men hvis i er i twivl er der en lille guide nede for.
@@ -49,9 +51,3 @@ Har brugt for lang tid på responsive design, men nu spiller det til gengæld. H
 * Responsive = 2T
 * Lidt leg = 1T
 
-### Færdig desig.
-
-Her kan i se et billede af det færdig design.
-
-
-<img alt="expo sdk" src="https://github.com/taxidriver2192/pentia-v2/blob/main/images/Pentia-design.jpg">
