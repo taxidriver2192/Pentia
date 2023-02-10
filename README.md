@@ -19,35 +19,19 @@ npm run dev
 
 ```
 
-## Glemte
-Må indrømme at jeg ikke læste beskrivelse af opgaven helt igennem..
-Glemte at tilføre en video, så som et plaster på sået får i denne her.
-
-[![Klik her for mere information](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/embed/dQw4w9WgXcQ)
-
-## Problemer.
-### Font
-Den font i mener jeg skal bruge er en købe font, har fundet en der er tæt på, men den er ikke helt den rigtige..
-
-### Overflow
-Havde nogle problemer med at få stylet `overflow` i den farve der var i designet.
-Fandt dette https://caniuse.com/?search=scrollbar-color, men dette var ikke supportet og derfor droppede jeg det.
-
-### fullpage scroll
-Hvis det havde været et større projekt havde det været fedt at lave fullpage scroll. Fandt nemlig dette https://alvarotrigo.com/fullPage/.
-men desværre skulle jeg bare lavet for mange ting om før dette ville virke.
-
-### SVG
-Havde også nogle problemer med at style SVG billeder i next.js, så havde at vælge mellem `<Images>` eller `<image>` tag, ville grene gå med next Image pga speed. dette gjorde bare at jeg ikke kunne style dem? Der er sikket et simpelt fix til dette, men valgte bare at lave dem om til png billeder i steden for.
-
-### Startede for stort ud
-Første gang jeg prøve at lave projektet ville jeg gerne lære tailwindui, lad os bare sige det gjorde mig kun langsomt og det er længe side jeg har været så forvirret over at lave css, som jeg var da jeg prøvet med tailwind...
-
-## Samlet tid.
-
-Har brugt for lang tid på responsive design, men nu spiller det til gengæld. Har ikke testet i andre browser eller enheder, har bare lavet det i firefox...
-
-* Destop = 2.5t
-* Responsive = 2T
-* Lidt leg = 1T
+## Opdateret beskrivelse af projekter
+### Designudfordringer
+Udsøgt font: Jeg stødte på et fontproblem, da jeg søgte efter den helt rigtige font til projektet. Jeg fandt en, der lignede meget, men den var ikke helt spot on.
+### Overflow-problem: 
+Jeg stødte på et problem med at få styled overflow i den ønskede farve i designet. Jeg fandt et værktøj, men det blev ikke understøttet, så jeg måtte opgive.
+### Fullpage Scroll: 
+Hvis det var et større projekt, ville det have været fedt at implementere fullpage scroll. Jeg fandt et godt værktøj, men desværre var der for mange ændringer, der skulle foretages, før det ville virke.
+### SVG-udfordring: 
+Jeg havde også nogle problemer med at style SVG-billeder i Next.js, så jeg måtte vælge mellem <Image> eller <image> tag. Jeg valgte <Image> på grund af hastigheden, men det betød, at jeg ikke kunne style dem.
+Overambitioneret start: Da jeg startede projektet, ville jeg gerne lære Tailwind UI, men det endte med at gøre mig langsom og forvirret over CSS.
+## Samlet tid
+Jeg brugte for lang tid på responsive design, men nu fungerer det optimalt. Jeg har endnu ikke testet det i andre browsere eller enheder, da jeg kun har arbejdet med Firefox.
+Desktop: 2,5 timer
+Responsive: 2 timer
+Leg: 1 time
 
